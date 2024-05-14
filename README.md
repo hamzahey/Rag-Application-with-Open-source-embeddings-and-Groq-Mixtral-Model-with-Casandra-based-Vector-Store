@@ -22,15 +22,18 @@ The project utilizes a combination of data loaders, text preprocessing technique
    ```bash
    git clone https://github.com/hamzahey/Rag-Application-with-Open-source-embeddings-and-Groq-Mixtral-Model-with-Casandra-based-Vector-Store.git
 
-2. Install Dependencies: 
+2. Install Dependencies:
+```bash 
     pip install -r requirements.txt
 
 3. Setup Enviroment Variables:
+```bash
     GROQ_API_KEY=your_groq_api_key
     ASTRA_DB_TOKEN=your_astra_db_token
     ASTRA_DB_ID=your_astra_db_id
 
 4. Run Application:
+```bash
     python main.py
 
 ## Note
